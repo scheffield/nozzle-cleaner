@@ -1,12 +1,12 @@
 # nozzle-cleaner
-[![Stencil Fix Portable YouTube video](https://i.ytimg.com/vi/Am3ztQIkss0/maxresdefault.jpg)](https://youtu.be/Am3ztQIkss0 "Stencil  Fix Portable")
+[![Stencil Fix Portable YouTube video](https://i.ytimg.com/vi/U1onfGroUJI/maxresdefault.jpg)](https://youtu.be/U1onfGroUJI "Stencil  Fix Portable")
 
 ## Built
 ![asdf](images/cleaner_render.png)
 
-Print `foo.stl` and `bar.stl`. In addition, print `baz.stl` for cutting the PTFE tube. And choose one of the buckets form the [original mod](https://github.com/VoronDesign/VoronUsers/tree/main/orphaned_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs) (any of `purge_bucket_*mm_rev4.stl`).
+Print `nozzle_purge_bumper_holder.stl` and `nozzle_purge_sheet_endstop_holder.stl`. In addition, print `ptfe_tube_cutter.stl` for cutting the PTFE tube. And choose one of the buckets form the [original mod](https://github.com/VoronDesign/VoronUsers/tree/main/orphaned_mods/edwardyeeks/Decontaminator_Purge_Bucket_%26_Nozzle_Scrubber/STLs) (any of `purge_bucket_*mm_rev4.stl`).
 
-The [YouTube video](https://youtu.be/Am3ztQIkss0) shows how to install the mod.
+The [YouTube video](https://youtu.be/U1onfGroUJI) shows how to install the mod.
 
 ## BOM
  | Part | Amount | Comment |
@@ -16,6 +16,8 @@ The [YouTube video](https://youtu.be/Am3ztQIkss0) shows how to install the mod.
  | M2*20 socket head screw | 1 | To mount PTFE tube |
  | 12.1mm PTFE tube | 1 |  |
  | 6x3mm round magnets | 2 | For the purge bucket to connect to screws |
+ | M3*16 socket head screw | 1 | [optional] For PTFE cutter |
+ | M3 nut | 1 | [optional] For PTFE cutter |
 
 ## Config
 The macro for cleaning the nozzle can be found in `clean_nozzle.cfg`. I use it in the print start macro as follows
